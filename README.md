@@ -3,7 +3,13 @@
 
 项目中用到的一些工具。
 简介：
-NoPreViewPager  可以关闭缓存的 ViewPager。
+NoPreViewPager  可以关闭预加载和缓存的 ViewPager。
+/**
+ * set 0 {@link NoPreViewPager#setOffscreenPageLimit(int)}
+ * No longer enable read-ahead
+ */
+
+
 TemplateObservable TemplateObserver 快速订阅发布工具类
 MPermission 权限工具。
 SimpleCallback 简单的回调函数。
