@@ -6,7 +6,7 @@ import android.os.Bundle
 import android.support.annotation.Keep
 import android.util.Log
 import android.view.View
-import android.widget.Button
+import android.widget.TextView
 import com.star.quick_work.observer.TemplateObservable
 import com.star.quick_work.observer.TemplateObserver
 import com.star.quick_work.permission_tool.MPermission
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
 
     private var notifChange: TemplateObservable<Boolean>? = null
 
-    var button: Button? = null
+    var button: TextView? = null
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
