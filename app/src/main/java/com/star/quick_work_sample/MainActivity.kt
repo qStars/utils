@@ -82,6 +82,7 @@ class MainActivity : AppCompatActivity() {
 
 
     override fun onDestroy() {
+        timer?.cancle()
         //注销观察者
         this.registerObserver(false)
         super.onDestroy()
