@@ -1,0 +1,13 @@
+# utils
+项目中用到的一些工具。
+简介：
+NoPreViewPager  可以关闭缓存的 ViewPager。
+TemplateObservable TemplateObserver 快速订阅发布工具类
+MPermission 权限工具。
+SimpleCallback 简单的回调函数。
+ClickUtils 防止暴力点击工具类。
+TimerHelper 定时循环任务工具类。
+
+后续项目中的一些工具类会在脱敏后继续增加到此库中。
+
+遇到问题请发邮件到 q584211@gmail.com
